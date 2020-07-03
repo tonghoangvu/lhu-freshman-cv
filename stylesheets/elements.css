@@ -84,6 +84,7 @@ article {
   box-sizing: border-box;
   padding: 10px 20px 5px;
   margin: 20px;
+  margin-bottom: 0px;
 }
 
 .skill-title {
