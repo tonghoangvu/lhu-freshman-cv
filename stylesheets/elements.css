@@ -4,6 +4,20 @@ body {
   position: relative;
 }
 
+#stt {
+  font-size: 35px;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 10px;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+}
+
 /* HEADER */
 
 header {
