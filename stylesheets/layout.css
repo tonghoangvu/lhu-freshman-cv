@@ -1,0 +1,56 @@
+/* CLEAR & FLOAT */
+
+.clearfix {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+/* POSITION */
+
+.transform-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* FLEX */
+
+.flex-row, flex-column {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap !important;
+}
+
+/* FLEX COLUMNS */
+
+.div-2 {
+  width: 100%;
+}
+
+@media only screen and (min-width: 700px) {
+  .div-2 {
+    width: 50%;
+  }
+}
+
