@@ -1,2 +1,3 @@
 # tonghoangvu.github.io
-Tong Hoang Vu's CV
+
+Source code of my online CV. This was published at https://tonghoangvu.github.io
