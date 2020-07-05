@@ -48,9 +48,9 @@ h6 {
 
 a {
   text-decoration: none;
-  color: gray;
+  color: #0366d6;
 }
 
 a:hover {
-  color: black;
+  text-decoration: underline;
 }
