@@ -1,9 +1,8 @@
-/* GENERAL */
+/* FONTS */
 
-@font-face {
-  font-family: 'Open Sans';
-  src: url('https://fonts.googleapis.com/css2?family=Open+Sans');
-}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+/* GENERAL */
 
 html {
   line-height: 1.8;
@@ -17,12 +16,8 @@ body {
 
 /* HEADINGS */
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
-}
-
-h4, h5, h6 {
-  font-weight: 500;
 }
 
 h1 {
