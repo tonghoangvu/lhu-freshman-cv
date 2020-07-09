@@ -70,3 +70,10 @@ a:hover {
 a:active {
   background-color: unset;
 }
+
+/* CLASSES */
+
+.disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
